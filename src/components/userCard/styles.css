@@ -1,0 +1,103 @@
+.userCard {
+    /* background-color: #FCF8EA; */
+    width: 300px;
+    background-color: white;
+   
+    /* margin: 0px auto; */
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.07));
+}
+.imagediv {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 41%;
+    height: 37%;
+    margin: 0px auto;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.namediv {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10px; */
+    flex-direction: column;
+    padding: 15px;
+    text-align: left;
+}
+.firstname {
+    font-size: 14px;
+    margin-bottom: 5px;
+
+    text-align: left;
+    margin-top: 10px;
+}
+.gender {
+    font-size: 15px;
+    text-align: left;
+    margin-top: 0px;
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+.domain{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 0px;
+    width: 100%;
+}
+.avilabletext {
+    display: flex;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 0px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0px;
+    color: green;
+}
+.unavilabletext{
+    display: flex;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 0px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0px;
+   
+    color: grey;
+}
+.CreateButtonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button{
+    width:50%;
+    background-color: green;
+    border-radius: 12px;
+    border: none;
+    height: 30px;
+    color: white;
+
+}
+.butntext{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    
+}
+@media only screen and (max-width: 600px) {
+    butntext {
+     font-size: 30px;
+    }
+  }
